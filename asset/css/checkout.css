@@ -1,0 +1,50 @@
+
+
+main .bord-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/** style des bandes*/
+
+main .bord-1{
+    border: 10px solid black;
+}
+main .bord-2{
+    border: 10px solid red;
+}
+main .bord-3{
+    border: 10px solid yellow;
+}
+main .bord{
+    border-bottom: none;
+    border-right: none;
+}
+/** style des boutons*/
+main .contenue .service-1 .btn{
+    border: 5px solid rgba(0, 0, 0, 0.9);
+}
+main .contenue .service-2 .btn{
+    border: 5px solid rgba(139, 0, 0, 0.9);
+}
+
+main .contenue .service-3 .btn{
+    border: 5px solid rgba(158, 148, 2, 0.9);
+}
+
+/** style au survole de la souris*/
+main .contenue .service .btn:hover{
+    color: white;
+}
+main .contenue .service-1 .btn:hover{
+    background-color: rgb(0, 0, 0);
+}
+main .contenue .service-2 .btn:hover{
+    background-color: rgb(139, 0, 0);
+}
+main .contenue .service-3 .btn:hover{
+    background-color: rgb(158, 148, 2);
+}
+
+

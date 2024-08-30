@@ -1,0 +1,106 @@
+
+body *{
+    overflow: auto;
+}
+/* todo style du slide*/
+/* agencement du fond*/
+main #slide-block{
+    display: inline-block;
+    background: url(../image/background/blanc3.jpg);
+    background-size: cover;
+}
+/* taille et fond des bouton next et preview*/
+main #slide-block button span{
+    padding: 10%;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 5px;
+}
+/* couleur des indicateur de slide*/
+main #slide-block .carousel-indicators .indic1.active{
+    background-color: black;
+}
+main #slide-block .carousel-indicators .indic2.active{
+    background-color: red;
+}
+main #slide-block .carousel-indicators .indic3.active{
+    background-color: yellow;
+}
+main #slide-block #carouselAuto .carousel-inner img{
+    height: 500px;
+}
+    /* *responsive slide*/
+    @media (max-width: 992px )   and (min-width: 577px){
+        main #slide-block #carouselAuto .carousel-inner img{
+            height: 350px;
+        }
+    }
+    @media (max-width: 576px) {
+        main #slide-block #carouselAuto .carousel-inner img{
+            height: 250px;
+        }
+    }
+
+/* todo style de la rubrique  "nos service"*/
+main #nosSevice{
+    background: url(../../asset/image/background/black-flag.jpg);
+    background-size: cover;
+    position: relative;
+}
+main #nosSevice .nosSevice-title{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.884);
+}
+main #nosSevice .list-service *{
+    z-index: 50;
+}
+main #nosSevice .list-service .card{
+    border: none !important;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.542), -1px -1px 3px rgba(255, 255, 255, 0.542);
+}
+main #nosSevice .list-service .card .card-title{
+    overflow: hidden;
+    justify-content: space-between;
+}
+main #nosSevice .list-service .card .card-title span{
+    display: block;
+    height: auto;
+    width: 10px;
+    background-color: #5f5e5e;
+}
+    /* *responsive service */
+    @media (max-width: 576px) {
+        main #nosService .list-service .card{
+            width: 50px;
+            height: 50px;
+        }
+    }
+/*  todo style de la rubrique  "A propos"*/
+main #aboutUs{
+    background: linear-gradient(60deg, rgba(235, 235, 235, 0.247), rgba(185, 184, 184, 0.247));
+}
+
+main #aboutUs .aboutUs-title{
+    background-color: rgba(167, 98, 8, 0.733);
+}
+main #aboutUs .list-aboutUs h4{
+    border-bottom: 1px solid rgba(2, 2, 2, 0.247);
+}
+main #aboutUs .list-aboutUs .date-renter .date-title .btn{
+    float: left;
+}
+main #aboutUs video{
+    max-height: 400px;
+}
+
+/* todo style du  "Temoignage"*/
+main #temoignage{
+    background: url(../../asset/image/background/blanc1.jpg);
+    background-size: cover;
+}
+main #temoignage .list-temoignage .card{
+    border: none;
+    box-shadow: 1px 1px 3px rgba(2, 2, 2, 0.247), -1px -1px 3px rgba(2, 2, 2, 0.247);
+}
+main #temoignage .list-temoignage .card .nom-temoin img{
+    border-radius: 100%;
+    width: 50px;
+}

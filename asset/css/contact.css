@@ -1,0 +1,45 @@
+
+main{
+    background: url(../../asset/image/background/white-flag.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+main h3{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+}
+main .contact *{
+    z-index: 50;
+}
+/* Style de la parti formulaire et reseau*/
+main .mail-reseau{
+    color: rgb(0, 0, 0);
+}
+main .mail-reseau .reseau{
+    display: inline-block;
+}
+main .mail-reseau .reseau figure a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+main .reseau figure img{
+    width: 60%;
+}
+
+/* style de la partie localisation*/
+main .localisation{
+    color: rgb(255, 255, 255);
+}
+main .localisation h3{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.295);
+}
+main .localisation li{
+    list-style-type: none;
+}
+main .localisation .map{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295), -1px -1px 3px rgba(0, 0, 0, 0.295);
+}
+main iframe{
+    height: 300px;
+}

@@ -87,7 +87,7 @@ main #aboutUs .list-aboutUs h4{
 main #aboutUs .list-aboutUs .date-renter .date-title .btn{
     float: left;
 }
-main #aboutUs video{
+main #aboutUs iframe{
     max-height: 400px;
 }
 
